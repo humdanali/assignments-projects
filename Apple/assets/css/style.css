@@ -1,0 +1,92 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+body { font-family: 'SF Pro Display', sans-serif;}
+
+/* ---------- CSS Reset Starts Here ---------- */
+h1,h2,h3,h4,h5,h6 { padding: 0; margin: 0; }
+ul,ol { list-style: none; padding: 0; margin: 0; }
+a { text-decoration: none; color: var(--black-color); }
+/* ---------- CSS Reset Ends Here ---------- */
+
+/* ---------- Root Starts Here ---------- */
+:root { --black-color: #000000; --white-color: #ffffff; --lite-gray-color: #eeeeee; --blue-color: #0071E3; --lite-blue-color: #0077ED; }
+/* ---------- Root Ends Here ---------- */
+
+/* ---------- Custom Classes Starts Here ---------- */
+.section { padding: 50px 0; }
+.info-main-heading { font-size: 56px; line-height: 1.07143; font-weight: 600; letter-spacing: -.005em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; margin-bottom: 1rem; }
+.main-para { font-size: 28px; line-height: 1.14286; font-weight: 400; letter-spacing: .007em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; margin-top: 6px; }
+.blue-bg-btn { color: var(--white-color); background: var(--blue-color); padding: 0.8rem 2.5rem; border-radius: 42px; }
+.blue-bg-btn:hover { background: var(--lite-blue-color); transition: background 0.8s ease; }
+.blue-bd-btn { background: transparent; border: 1px solid var(--blue-color); padding: 0.8rem 2rem; border-radius: 42px; color: var(--blue-color); }
+.blue-bd-btn:hover { background: var(--blue-color); transition: background 0.8s ease; color: #fff; }
+.white-bg-btn { color: var(--black-color); background: var(--lite-gray-color); padding: 0.8rem 2.5rem; border-radius: 42px; }
+.white-bg-btn:hover { background: var(--white-color); transition: background 0.8s ease; }
+.white-bd-btn { background: transparent; border: 1px solid var(--lite-gray-color); padding: 0.8rem 2rem; border-radius: 42px; color: var(--white-color); }
+.white-bd-btn:hover { background: var(--white-color); transition: background 0.8s ease; color: var(--black-color);}
+/* ---------- Custom Classes Ends Here ---------- */
+
+/* ---------- Header Starts Here ---------- */
+.header .container .row { display: flex; align-items: center; justify-content: center; }
+.header .container .row .nav-menu { display: flex; align-items: center; justify-content: center; gap: 2rem; }
+.header .container .row .nav-menu .menu-items .items-links { font-size: 12px; }
+.header .container .row .nav-icon { display: flex; align-items: center; justify-content: center; gap: 2rem; }
+.header .container .row .nav-icon .icon-img .icon-link i { font-size: 14px;}
+/* ---------- Header Starts Here ---------- */
+
+/* ---------- Hero Starts Here ---------- */
+.hero { background: url('../images/hero_holiday_2024_still_time__fof6z4yuswyi_large.jpg') center center/cover no-repeat; height: 100vh; }
+.hero .container .row { display: flex; align-items: center; justify-content: center; }
+.hero .container .row .info-box { display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;}
+/* ---------- Hero Ends Here ---------- */
+
+/* ---------- Banner One Starts Here ---------- */
+.banner-one { background: url('../images/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg') center center/cover no-repeat; height: 600px; margin: 0.8rem 0 0 0; }
+.banner-one .container .row .info-box .info-main-heading { font-size: 56px; line-height: 1.07143; font-weight: 600; letter-spacing: -.005em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; margin-bottom: 1rem; color: var(--white-color); }
+.banner-one .container .row .info-box { text-align: center; }
+.banner-one .container .row .info-box .main-para { font-size: 28px; line-height: 1.14286; font-weight: 400; letter-spacing: .007em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; margin-top: 6px; color: var(--white-color); }
+.banner-one .container .row .info-box .info-box-btn { margin-top: 1rem; display: flex; align-items: center; justify-content: center; flex-direction: row; gap: 1rem; }
+/* ---------- Banner Two Ends Here ---------- */
+
+/* ---------- Banner Two Starts Here ---------- */
+.banner-two { background: url('../images/hero_iphone16_avail__euwzls69btea_large.jpg') center center/cover no-repeat; height: 600px; margin: 0.8rem 0 0 0; }
+.banner-two .container .row .info-box { text-align: center; }
+.banner-two .container .row .info-box .info-main-heading { font-size: 56px; line-height: 1.07143; font-weight: 600; letter-spacing: -.005em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; margin-bottom: 1rem; color: var(--white-color); }
+.banner-two .container .row .info-box .main-para { font-size: 28px; line-height: 1.14286; font-weight: 400; letter-spacing: .007em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; margin-top: 6px; color: var(--white-color); }
+.banner-two .container .row .info-box .info-box-btn { margin-top: 1rem; display: flex; align-items: center; justify-content: center; flex-direction: row; gap: 1rem;}
+/* ---------- Banner Two Ends Here ---------- */
+
+/* ---------- Grid of six Starts Here ---------- */
+.grid-section .row-one .col-one .info-box { background: url("../images/promo_ipadair_ai__3fv1eitzqv6y_large.jpg") center center/cover no-repeat; height: 100vh; padding: 2rem 1rem; margin: 0.8rem 0.4rem 0 0.8rem; position: relative; z-index: 1; left: 0; right: 0; text-align: center; }
+.grid-section .row-one .col-two .info-box { background: url("../images/promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg") center center/cover no-repeat; height: 100vh; padding: 2rem 1rem; margin: 0.8rem 0.8rem 0 0.4rem; position: relative; z-index: 1; left: 0; right: 0; text-align: center; }
+.grid-section .row-two .col-one .info-box { background: url("../images/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg") center center/cover no-repeat; height: 100vh; padding: 2rem 1rem; margin: 0.8rem 0.4rem 0 0.8rem; position: relative; z-index: 1; left: 0; right: 0; text-align: center; }
+.grid-section .row-two .col-two .info-box { background: url("../images/promo_macbook_air_m3__e43jegok3wuq_large.jpg") center center/cover no-repeat; height: 100vh; padding: 2rem 1rem; margin: 0.8rem 0.8rem 0 0.4rem; position: relative; z-index: 1; left: 0; right: 0; text-align: center; }
+.grid-section .row-three .col-one .info-box { background: url("../images/promo_iphone_tradein__bugw15ka691e_large.jpg") center center/cover no-repeat; height: 100vh; padding: 2rem 1rem; margin: 0.8rem 0.4rem 0 0.8rem; position: relative; z-index: 1; left: 0; right: 0; text-align: center; }
+.grid-section .row-three .col-two .info-box { background: url("../images/promo_apple_card__5cm7draujpey_large.jpg") center center/cover no-repeat; height: 100vh; padding: 2rem 1rem; margin: 0.8rem 0.8rem 0 0.4rem; position: relative; z-index: 1; left: 0; right: 0; text-align: center; }
+.grid-section .row .info-box .info-inner-box{position: absolute; top: 3.5rem; left: 0; right: 0;}
+.grid-section .row-one .col-two .info-box .info-inner-box { position: absolute; top: 27rem; left: 0; right: 0;}
+.grid-section .container-fluid .row .info-main-heading { display: flex; align-items: center; justify-content: center; font-size: 40px; line-height: 1.1; font-weight: 600; letter-spacing: 0em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+.grid-section .container-fluid .row .info-main-heading .inlineImg { width: 1.8rem; height: 2rem; }
+.grid-section .container-fluid .row .main-para { font-size: 21px; line-height: 1.19048; font-weight: 400; letter-spacing: .011em; font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; margin-top: 4px; }
+.grid-section .container-fluid .row-one .col-two .info-main-heading{ color: var(--white-color); }
+.grid-section .container-fluid .row-one .col-two .main-para{ color: var(--white-color); }
+.grid-section .container-fluid .row .info-box-btn{ margin-top: 25px; }
+.grid-section .container-fluid .row .blue-bg-btn { color: var(--white-color); background: var(--blue-color); padding: 0.5rem 0.8rem; border-radius: 42px; }
+.grid-section .container-fluid .row .blue-bg-btn:hover { background: var(--lite-blue-color); transition: background 0.8s ease; }
+.grid-section .container-fluid .row .blue-bd-btn { background: transparent; border: 1px solid var(--blue-color); padding: 0.5rem 0.8rem; border-radius: 42px; color: var(--blue-color); }
+.grid-section .container-fluid .row .blue-bd-btn:hover { background: var(--blue-color); transition: background 0.8s ease; color: #fff;}
+/* ---------- Grid of six Ends Here ---------- */
+
+/* ---------- Stream Now Starts Here ---------- */
+.carousel .carousel-inner .carousel-item img { width: 80% !important; margin: 0 auto; height: 100vh; object-fit: cover;}
+.carousel .carousel-inner .carousel-item .carousel-caption { display: flex !important; align-items: center; gap: 3rem; }
+.carousel .carousel-inner .carousel-item .carousel-caption p { margin: 0;}
+.carousel-control-prev .carousel-control-prev-icon {
+    color: #000;
+    background-image: none !important;
+}
+.carousel-control-next .carousel-control-next-icon {
+    color: #000;
+    background-image: none !important;
+}
+/* ---------- Stream Now Ends Here ---------- */
+
